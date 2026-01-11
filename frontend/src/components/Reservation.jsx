@@ -18,7 +18,7 @@ const Reservation = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/v1/reservations/send",
+        "https://restraw.onrender.com/api/v1/reservations/send",
         {
           firstName,
           lastName,
